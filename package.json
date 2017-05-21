@@ -1,8 +1,15 @@
 {
-  "name": "WebRTC",
+  "name": "chatserver",
   "version": "1.0.0",
-  "description": "## Initialization",
+  "description": "A simple chatserver",
   "main": "chatserver.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-beta.1",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +17,6 @@
     "type": "git",
     "url": "git+https://github.com/berkkarapence/WebRTC.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
